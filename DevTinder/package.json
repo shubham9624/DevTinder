@@ -1,0 +1,21 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "tinder for developers to connect and explore new ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/App.js",
+    "start": "node src/App.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "type":"module",
+  "author": "Shubham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
